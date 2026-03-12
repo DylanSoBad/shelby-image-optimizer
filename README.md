@@ -1,21 +1,24 @@
-# Shelby Image Optimizer
+# 🖼 Shelby Image Optimizer
 
-A simple image optimization service built with Shelby storage and Sharp.
+A specialized image transformation and delivery service built on **Shelby Global Object Storage**.
 
-## Features
+## 🚀 The Core Problem
+High-resolution images slow down web performance and drive up egress costs. Legacy CDNs charge a premium for real-time optimization.
 
-- Resize images dynamically
-- Convert images to WebP
-- Lightweight and fast processing
+## 💡 The Shelby Solution
+By combining **Sharp's** processing power with **Shelby's low-latency fiber network**, this tool provides:
+- **On-the-fly Resizing:** Deliver the perfect size for every device.
+- **WebP Conversion:** Reduce image weight by up to 80% automatically.
+- **Global Egress Savings:** Leverage Shelby's 70% cheaper data transfer.
 
-## Installation
+## 🛠 Installation
+1. `npm install`
+2. Configure `SHELBY_API_KEY` in `.env`.
+3. `node server.js`
 
-npm install
+## 🔗 API Example
+`GET /optimize?imageKey=banner.jpg&width=400&quality=75`
 
-## Run
+---
+*Developed by **dylann** | Shelby Early Access Developer*
 
-node server.js
-
-## Example
-
-GET /optimize?imageKey=banner.jpg&width=400&quality=75
