@@ -1,0 +1,12 @@
+{
+  "name": "shelby-image-optimizer",
+  "version": "1.0.0",
+  "description": "Real-time image optimization with Shelby storage",
+  "main": "server.js",
+  "dependencies": {
+    "@shelby-xyz/sdk": "latest",
+    "fastify": "^4.20.0",
+    "sharp": "^0.32.0",
+    "dotenv": "^16.4.5"
+  }
+}
