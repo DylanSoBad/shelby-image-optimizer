@@ -20,5 +20,5 @@ By combining **Sharp's** processing power with **Shelby's low-latency fiber netw
 `GET /optimize?imageKey=banner.jpg&width=400&quality=75`
 
 ---
-*Developed by **dylann** | Shelby Early Access Developer*
+*Developed by **dylann** | Shelby Early Access Developers*
 
